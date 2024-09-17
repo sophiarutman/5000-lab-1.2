@@ -1,0 +1,57 @@
+---
+title: "simple_quarto_website" 
+bibliography: reference.bib
+---
+
+<h1>FIRST SECTION OF PLACEHOLDER</h1>
+Lorem ipsum odor amet, consectetuer adipiscing elit. Nulla imperdiet inceptos amet varius euismod. Ipsum lorem sem per luctus mauris. Feugiat maecenas posuere erat nulla curabitur netus. Auctor rhoncus urna euismod mauris tellus ornare. Pharetra pulvinar tempor cras maecenas, enim vestibulum. Vivamus conubia laoreet ornare maximus sodales porttitor convallis amet odio. Ex fringilla egestas volutpat ultricies semper tempus. Lacus hendrerit convallis ligula sociosqu risus est sit sollicitudin volutpat. Taciti sagittis non id; primis donec viverra cursus penatibus.
+
+<h2>SECOND SECTION OF PLACEHOLDER</h2>
+Orci molestie praesent neque lacinia ipsum condimentum imperdiet nullam. Eu sed quam ullamcorper sagittis interdum torquent finibus morbi. Nullam maecenas mi placerat, tempus curae amet leo diam. Curae est a neque libero pellentesque nascetur molestie. Aptent mauris potenti hendrerit accumsan eleifend tellus velit ac. Potenti pellentesque mollis justo justo hac mattis nibh. Mollis hendrerit nascetur mattis dapibus odio rhoncus sed sagittis ullamcorper.
+
+<h3>THIRD SECTION OF PLACEHOLDER</h3>
+Cubilia egestas morbi cubilia habitant et quisque scelerisque. Primis himenaeos elit nisl commodo ultrices iaculis. Quis aliquet varius, tincidunt aliquam hendrerit imperdiet neque. Nisi netus scelerisque; tempor imperdiet eros potenti vehicula. Finibus scelerisque quisque commodo ut faucibus vestibulum pharetra fames! Aliquam ultrices auctor magnis maecenas fringilla massa placerat. Natoque velit sed dolor fermentum diam. Orci potenti lobortis suspendisse interdum et per magna praesent sed. Nostra aliquet suspendisse lobortis himenaeos magna justo accumsan amet imperdiet.
+
+<h3> My table </</h3> 
+| Name of My Dogs/ My friends dogs   | Breed of Dog |
+| -------- | ------- |
+| Chief  | Golden Retriver/Chow Chow    |
+| Candy | Shephard/Hound Mix     |
+| Yogi    | Great Dane/Hound Mix |
+| Munson  | Great Dane/ Shepard Mix |
+
+
+Inline Latex Equation <br>
+$x + y = z$
+
+Non - Inline Latex Equation <br>
+$$x + y = z$$
+
+[^1]: I LOVE FOOTNOTES!!
+
+>"To be or not to be, that is the question" - Shakespeare
+
+![Brunswick, Maine](images/brunswick_maine.jpeg)
+
+![BIG change from Maine to DC!](images/DC_photo.jpeg)
+
+{{< video https://www.youtube.com/watch?v=eZXl9AUgxdE&pp=ygUGeWlwaWNr >}}
+
+>This is my favorite video on the internet
+
+```{mermaid}
+flowchart LR
+A[What are you wearing?] --> B(Lipstick)
+A[What are you wearing?] --> C(Yipick)
+C(Yipick) --> D{Chosen Answer} 
+D{Chosen Answer} --> E[Where did you buy your yipick?]
+E[Where did you buy your yipick?] --> F(Sephora)
+E[Where did you buy your yipick?] --> G(Home Depot)
+G(Home Depot) --> H{Chosen Answer}
+```
+
+<strong>This could be the citation for the flow chart if the child in the video did research on dark matter: </strong>
+
+@PhysRevD.79.015014 
+
+[^1]

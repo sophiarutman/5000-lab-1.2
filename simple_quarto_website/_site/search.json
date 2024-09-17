@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "FIRST SECTION OF PLACEHOLDER\nLorem ipsum odor amet, consectetuer adipiscing elit. Nulla imperdiet inceptos amet varius euismod. Ipsum lorem sem per luctus mauris. Feugiat maecenas posuere erat nulla curabitur netus. Auctor rhoncus urna euismod mauris tellus ornare. Pharetra pulvinar tempor cras maecenas, enim vestibulum. Vivamus conubia laoreet ornare maximus sodales porttitor convallis amet odio. Ex fringilla egestas volutpat ultricies semper tempus. Lacus hendrerit convallis ligula sociosqu risus est sit sollicitudin volutpat. Taciti sagittis non id; primis donec viverra cursus penatibus.\nOrci molestie praesent neque lacinia ipsum condimentum imperdiet nullam. Eu sed quam ullamcorper sagittis interdum torquent finibus morbi. Nullam maecenas mi placerat, tempus curae amet leo diam. Curae est a neque libero pellentesque nascetur molestie. Aptent mauris potenti hendrerit accumsan eleifend tellus velit ac. Potenti pellentesque mollis justo justo hac mattis nibh. Mollis hendrerit nascetur mattis dapibus odio rhoncus sed sagittis ullamcorper.\nCubilia egestas morbi cubilia habitant et quisque scelerisque. Primis himenaeos elit nisl commodo ultrices iaculis. Quis aliquet varius, tincidunt aliquam hendrerit imperdiet neque. Nisi netus scelerisque; tempor imperdiet eros potenti vehicula. Finibus scelerisque quisque commodo ut faucibus vestibulum pharetra fames! Aliquam ultrices auctor magnis maecenas fringilla massa placerat. Natoque velit sed dolor fermentum diam. Orci potenti lobortis suspendisse interdum et per magna praesent sed. Nostra aliquet suspendisse lobortis himenaeos magna justo accumsan amet imperdiet.\nInline Latex Equation  \\(x + y = z\\)\nNon - Inline Latex Equation  \\[x + y = z\\]\nflowchart LR\nA[What are you wearing?] --&gt; B(Lipstick)\nA[What are you wearing?] --&gt; C(Yipick)\nC(Yipick) --&gt; D{Chosen Answer} \nD{Chosen Answer} --&gt; E[Where did you buy your yipick?]\nE[Where did you buy your yipick?] --&gt; F(Sephora)\nE[Where did you buy your yipick?] --&gt; G(Home Depot)\nG(Home Depot) --&gt; H{Chosen Answer}\nThis could be the citation for the flow chart if the child in the video did research on dark matter:\nArkani-Hamed et al. (2009)\n1"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nI LOVE FOOTNOTES!!↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#field-hockey",
+    "href": "slides/slides.html#field-hockey",
+    "title": "My Three Favorite Sports",
+    "section": "1. Field Hockey",
+    "text": "1. Field Hockey\n\nYou get to run around and hit a ball\nI made good friends\nYou get funny pictures of yourself (pardon the water mark)"
+  },
+  {
+    "objectID": "slides/slides.html#baseball",
+    "href": "slides/slides.html#baseball",
+    "title": "My Three Favorite Sports",
+    "section": "2. Baseball",
+    "text": "2. Baseball\n\nYou get to run around and hit a ball\nA lot of hand eye coordination involved\nA lot of data to analyze\nThe Nationals do fireworks after their Friday night games\nWe (Yankees) got to steal this guy from the Nationals"
+  },
+  {
+    "objectID": "slides/slides.html#dance",
+    "href": "slides/slides.html#dance",
+    "title": "My Three Favorite Sports",
+    "section": "3. Dance",
+    "text": "3. Dance\n\nI made a cool plot about the 5,6,7,8 count at the beginning of choreography:\nIf this slide was about dark matter, I would need this citation: Arkani-Hamed et al. (2009)\n\n\n\nHere is the plot\nimport matplotlib.pyplot as plt\n\nplt.plot([5, 6, 7, 8], [4, 3, 2, 1])\nplt.title(\"Arbitrary Plot\")\nplt.xlabel(\"Dance Countoff\")\nplt.ylabel(\"Count(s) until dance begins\")\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nArkani-Hamed, Nima, Douglas P. Finkbeiner, Tracy R. Slatyer, and Neal Weiner. 2009. “A Theory of Dark Matter.” Phys. Rev. D 79 (January): 015014. https://doi.org/10.1103/PhysRevD.79.015014."
+  }
+]

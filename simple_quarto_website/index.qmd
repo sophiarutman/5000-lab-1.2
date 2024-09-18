@@ -1,18 +1,33 @@
 ---
-title: "simple_quarto_website" 
+toc: true 
+title: "simple_quarto_website"
 bibliography: reference.bib
 ---
 
-<h1>FIRST SECTION OF PLACEHOLDER</h1>
-Lorem ipsum odor amet, consectetuer adipiscing elit. Nulla imperdiet inceptos amet varius euismod. Ipsum lorem sem per luctus mauris. Feugiat maecenas posuere erat nulla curabitur netus. Auctor rhoncus urna euismod mauris tellus ornare. Pharetra pulvinar tempor cras maecenas, enim vestibulum. Vivamus conubia laoreet ornare maximus sodales porttitor convallis amet odio. Ex fringilla egestas volutpat ultricies semper tempus. Lacus hendrerit convallis ligula sociosqu risus est sit sollicitudin volutpat. Taciti sagittis non id; primis donec viverra cursus penatibus.
+# FIRST SECTION OF PLACEHOLDER
+## Columns
+### I made two columns using HTML
+<body>
+<table>
+    <th> Lorem ipsum odor amet, consectetuer adipiscing elit. Nulla imperdiet inceptos amet varius euismod. Ipsum lorem sem per luctus mauris. Feugiat maecenas posuere erat nulla curabitur netus. Auctor rhoncus urna euismod mauris tellus ornare. </th>
+    <th> Pharetra pulvinar tempor cras maecenas, enim vestibulum. Vivamus conubia laoreet ornare maximus sodales porttitor convallis amet odio. Ex fringilla egestas volutpat ultricies semper tempus. Lacus hendrerit convallis ligula sociosqu risus est sit sollicitudin volutpat. Taciti sagittis non id; primis donec viverra cursus penatibus.</th>
+</table>
 
-<h2>SECOND SECTION OF PLACEHOLDER</h2>
-Orci molestie praesent neque lacinia ipsum condimentum imperdiet nullam. Eu sed quam ullamcorper sagittis interdum torquent finibus morbi. Nullam maecenas mi placerat, tempus curae amet leo diam. Curae est a neque libero pellentesque nascetur molestie. Aptent mauris potenti hendrerit accumsan eleifend tellus velit ac. Potenti pellentesque mollis justo justo hac mattis nibh. Mollis hendrerit nascetur mattis dapibus odio rhoncus sed sagittis ullamcorper.
+# SECOND SECTION OF PLACEHOLDER
+## Bulleted List
+<ul>
+    <li>Orci molestie praesent neque lacinia ipsum condimentum imperdiet nullam. Eu sed quam ullamcorper sagittis interdum torquent finibus morbi. </li>
+    <li>Nullam maecenas mi placerat, tempus curae amet leo diam. Curae est a neque libero pellentesque nascetur molestie. </li>
+    <li>Aptent mauris potenti hendrerit accumsan eleifend tellus velit ac. Potenti pellentesque mollis justo justo hac mattis nibh. Mollis hendrerit nascetur mattis dapibus odio rhoncus sed sagittis ullamcorper. </li>
+</ul>
 
-<h3>THIRD SECTION OF PLACEHOLDER</h3>
+# THIRD SECTION OF PLACEHOLDER 
+
 Cubilia egestas morbi cubilia habitant et quisque scelerisque. Primis himenaeos elit nisl commodo ultrices iaculis. Quis aliquet varius, tincidunt aliquam hendrerit imperdiet neque. Nisi netus scelerisque; tempor imperdiet eros potenti vehicula. Finibus scelerisque quisque commodo ut faucibus vestibulum pharetra fames! Aliquam ultrices auctor magnis maecenas fringilla massa placerat. Natoque velit sed dolor fermentum diam. Orci potenti lobortis suspendisse interdum et per magna praesent sed. Nostra aliquet suspendisse lobortis himenaeos magna justo accumsan amet imperdiet.
 
-<h3> My table </</h3> 
+# My table  
+## These are the names of my dogs and one of my friend's dogs, along with their respective breeds. 
+### Yes, my friend is a huge Yankees fan. 
 | Name of My Dogs/ My friends dogs   | Breed of Dog |
 | -------- | ------- |
 | Chief  | Golden Retriver/Chow Chow    |
@@ -21,13 +36,13 @@ Cubilia egestas morbi cubilia habitant et quisque scelerisque. Primis himenaeos 
 | Munson  | Great Dane/ Shepard Mix |
 
 
-Inline Latex Equation <br>
+Inline Latex Equation 
+
 $x + y = z$
 
-Non - Inline Latex Equation <br>
-$$x + y = z$$
+Non - Inline Latex Equation 
 
-[^1]: I LOVE FOOTNOTES!!
+$$x + y = z$$
 
 >"To be or not to be, that is the question" - Shakespeare
 
@@ -37,7 +52,7 @@ $$x + y = z$$
 
 {{< video https://www.youtube.com/watch?v=eZXl9AUgxdE&pp=ygUGeWlwaWNr >}}
 
->This is my favorite video on the internet
+*This is my favorite video on the internet, and here is a flowchart summarizing the main events:*
 
 ```{mermaid}
 flowchart LR
@@ -50,8 +65,8 @@ E[Where did you buy your yipick?] --> G(Home Depot)
 G(Home Depot) --> H{Chosen Answer}
 ```
 
-<strong>This could be the citation for the flow chart if the child in the video did research on dark matter: </strong>
+[^1]: This could be the citation for the flow chart if the child in the video did research on dark matter - @PhysRevD.79.015014 
 
-@PhysRevD.79.015014 
+
 
 [^1]

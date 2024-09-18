@@ -11,14 +11,14 @@
     "href": "index.html",
     "title": "simple_quarto_website",
     "section": "",
-    "text": "FIRST SECTION OF PLACEHOLDER\nLorem ipsum odor amet, consectetuer adipiscing elit. Nulla imperdiet inceptos amet varius euismod. Ipsum lorem sem per luctus mauris. Feugiat maecenas posuere erat nulla curabitur netus. Auctor rhoncus urna euismod mauris tellus ornare. Pharetra pulvinar tempor cras maecenas, enim vestibulum. Vivamus conubia laoreet ornare maximus sodales porttitor convallis amet odio. Ex fringilla egestas volutpat ultricies semper tempus. Lacus hendrerit convallis ligula sociosqu risus est sit sollicitudin volutpat. Taciti sagittis non id; primis donec viverra cursus penatibus.\nOrci molestie praesent neque lacinia ipsum condimentum imperdiet nullam. Eu sed quam ullamcorper sagittis interdum torquent finibus morbi. Nullam maecenas mi placerat, tempus curae amet leo diam. Curae est a neque libero pellentesque nascetur molestie. Aptent mauris potenti hendrerit accumsan eleifend tellus velit ac. Potenti pellentesque mollis justo justo hac mattis nibh. Mollis hendrerit nascetur mattis dapibus odio rhoncus sed sagittis ullamcorper.\nCubilia egestas morbi cubilia habitant et quisque scelerisque. Primis himenaeos elit nisl commodo ultrices iaculis. Quis aliquet varius, tincidunt aliquam hendrerit imperdiet neque. Nisi netus scelerisque; tempor imperdiet eros potenti vehicula. Finibus scelerisque quisque commodo ut faucibus vestibulum pharetra fames! Aliquam ultrices auctor magnis maecenas fringilla massa placerat. Natoque velit sed dolor fermentum diam. Orci potenti lobortis suspendisse interdum et per magna praesent sed. Nostra aliquet suspendisse lobortis himenaeos magna justo accumsan amet imperdiet.\nInline Latex Equation  \\(x + y = z\\)\nNon - Inline Latex Equation  \\[x + y = z\\]\nflowchart LR\nA[What are you wearing?] --&gt; B(Lipstick)\nA[What are you wearing?] --&gt; C(Yipick)\nC(Yipick) --&gt; D{Chosen Answer} \nD{Chosen Answer} --&gt; E[Where did you buy your yipick?]\nE[Where did you buy your yipick?] --&gt; F(Sephora)\nE[Where did you buy your yipick?] --&gt; G(Home Depot)\nG(Home Depot) --&gt; H{Chosen Answer}\nThis could be the citation for the flow chart if the child in the video did research on dark matter:\nArkani-Hamed et al. (2009)\n1"
+    "text": "Lorem ipsum odor amet, consectetuer adipiscing elit. Nulla imperdiet inceptos amet varius euismod. Ipsum lorem sem per luctus mauris. Feugiat maecenas posuere erat nulla curabitur netus. Auctor rhoncus urna euismod mauris tellus ornare.\n\n\nPharetra pulvinar tempor cras maecenas, enim vestibulum. Vivamus conubia laoreet ornare maximus sodales porttitor convallis amet odio. Ex fringilla egestas volutpat ultricies semper tempus. Lacus hendrerit convallis ligula sociosqu risus est sit sollicitudin volutpat. Taciti sagittis non id; primis donec viverra cursus penatibus."
   },
   {
     "objectID": "index.html#footnotes",
     "href": "index.html#footnotes",
     "title": "simple_quarto_website",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nI LOVE FOOTNOTES!!↩︎"
+    "text": "Footnotes\n\n\nThis could be the citation for the flow chart if the child in the video did research on dark matter - Arkani-Hamed et al. (2009)↩︎"
   },
   {
     "objectID": "slides/slides.html#field-hockey",
@@ -40,5 +40,33 @@
     "title": "My Three Favorite Sports",
     "section": "3. Dance",
     "text": "3. Dance\n\nI made a cool plot about the 5,6,7,8 count at the beginning of choreography:\nIf this slide was about dark matter, I would need this citation: Arkani-Hamed et al. (2009)\n\n\n\nHere is the plot\nimport matplotlib.pyplot as plt\n\nplt.plot([5, 6, 7, 8], [4, 3, 2, 1])\nplt.title(\"Arbitrary Plot\")\nplt.xlabel(\"Dance Countoff\")\nplt.ylabel(\"Count(s) until dance begins\")\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nArkani-Hamed, Nima, Douglas P. Finkbeiner, Tracy R. Slatyer, and Neal Weiner. 2009. “A Theory of Dark Matter.” Phys. Rev. D 79 (January): 015014. https://doi.org/10.1103/PhysRevD.79.015014."
+  },
+  {
+    "objectID": "index.html#second-section-of-placeholder",
+    "href": "index.html#second-section-of-placeholder",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Orci molestie praesent neque lacinia ipsum condimentum imperdiet nullam. Eu sed quam ullamcorper sagittis interdum torquent finibus morbi.\n\n\nNullam maecenas mi placerat, tempus curae amet leo diam. Curae est a neque libero pellentesque nascetur molestie.\n\n\nAptent mauris potenti hendrerit accumsan eleifend tellus velit ac. Potenti pellentesque mollis justo justo hac mattis nibh. Mollis hendrerit nascetur mattis dapibus odio rhoncus sed sagittis ullamcorper.\n\n\n\n\nCubilia egestas morbi cubilia habitant et quisque scelerisque. Primis himenaeos elit nisl commodo ultrices iaculis. Quis aliquet varius, tincidunt aliquam hendrerit imperdiet neque. Nisi netus scelerisque; tempor imperdiet eros potenti vehicula. Finibus scelerisque quisque commodo ut faucibus vestibulum pharetra fames! Aliquam ultrices auctor magnis maecenas fringilla massa placerat. Natoque velit sed dolor fermentum diam. Orci potenti lobortis suspendisse interdum et per magna praesent sed. Nostra aliquet suspendisse lobortis himenaeos magna justo accumsan amet imperdiet.\n\n\n\n\n\n\nName of My Dogs/ My friends dogs\nBreed of Dog\n\n\n\n\nChief\nGolden Retriver/Chow Chow\n\n\nCandy\nShephard/Hound Mix\n\n\nYogi\nGreat Dane/Hound Mix\n\n\nMunson\nGreat Dane/ Shepard Mix\n\n\n\nInline Latex Equation\n\\(x + y = z\\)\nNon - Inline Latex Equation\n\\[x + y = z\\]\n\n“To be or not to be, that is the question” - Shakespeare\n\n\n\n\nBrunswick, Maine\n\n\n\n\n\nBIG change from Maine to DC!\n\n\n\n\nThis is my favorite video on the internet\n\n\n\n\n\n\nflowchart LR\nA[What are you wearing?] --&gt; B(Lipstick)\nA[What are you wearing?] --&gt; C(Yipick)\nC(Yipick) --&gt; D{Chosen Answer} \nD{Chosen Answer} --&gt; E[Where did you buy your yipick?]\nE[Where did you buy your yipick?] --&gt; F(Sephora)\nE[Where did you buy your yipick?] --&gt; G(Home Depot)\nG(Home Depot) --&gt; H{Chosen Answer}\n\n\n\n\n\n\nThis could be the citation for the flow chart if the child in the video did research on dark matter:\nArkani-Hamed et al. (2009)\n1"
+  },
+  {
+    "objectID": "index.html#columns",
+    "href": "index.html#columns",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Lorem ipsum odor amet, consectetuer adipiscing elit. Nulla imperdiet inceptos amet varius euismod. Ipsum lorem sem per luctus mauris. Feugiat maecenas posuere erat nulla curabitur netus. Auctor rhoncus urna euismod mauris tellus ornare.\n\n\nPharetra pulvinar tempor cras maecenas, enim vestibulum. Vivamus conubia laoreet ornare maximus sodales porttitor convallis amet odio. Ex fringilla egestas volutpat ultricies semper tempus. Lacus hendrerit convallis ligula sociosqu risus est sit sollicitudin volutpat. Taciti sagittis non id; primis donec viverra cursus penatibus."
+  },
+  {
+    "objectID": "index.html#bulleted-list",
+    "href": "index.html#bulleted-list",
+    "title": "simple_quarto_website",
+    "section": "Bulleted List",
+    "text": "Bulleted List\n\n\nOrci molestie praesent neque lacinia ipsum condimentum imperdiet nullam. Eu sed quam ullamcorper sagittis interdum torquent finibus morbi.\n\n\nNullam maecenas mi placerat, tempus curae amet leo diam. Curae est a neque libero pellentesque nascetur molestie.\n\n\nAptent mauris potenti hendrerit accumsan eleifend tellus velit ac. Potenti pellentesque mollis justo justo hac mattis nibh. Mollis hendrerit nascetur mattis dapibus odio rhoncus sed sagittis ullamcorper."
+  },
+  {
+    "objectID": "index.html#these-are-the-names-of-my-dogs-and-one-of-my-friends-dogs-along-with-their-respective-breeds.",
+    "href": "index.html#these-are-the-names-of-my-dogs-and-one-of-my-friends-dogs-along-with-their-respective-breeds.",
+    "title": "simple_quarto_website",
+    "section": "These are the names of my dogs and one of my friend’s dogs, along with their respective breeds.",
+    "text": "These are the names of my dogs and one of my friend’s dogs, along with their respective breeds.\n\nYes, my friend is a huge Yankees fan.\n\n\n\nName of My Dogs/ My friends dogs\nBreed of Dog\n\n\n\n\nChief\nGolden Retriver/Chow Chow\n\n\nCandy\nShephard/Hound Mix\n\n\nYogi\nGreat Dane/Hound Mix\n\n\nMunson\nGreat Dane/ Shepard Mix\n\n\n\nInline Latex Equation\n\\(x + y = z\\)\nNon - Inline Latex Equation\n\\[x + y = z\\]\n\n“To be or not to be, that is the question” - Shakespeare\n\n\n\n\nBrunswick, Maine\n\n\n\n\n\nBIG change from Maine to DC!\n\n\n\nThis is my favorite video on the internet, and here is a flowchart summarizing the main events:\n\n\n\n\n\nflowchart LR\nA[What are you wearing?] --&gt; B(Lipstick)\nA[What are you wearing?] --&gt; C(Yipick)\nC(Yipick) --&gt; D{Chosen Answer} \nD{Chosen Answer} --&gt; E[Where did you buy your yipick?]\nE[Where did you buy your yipick?] --&gt; F(Sephora)\nE[Where did you buy your yipick?] --&gt; G(Home Depot)\nG(Home Depot) --&gt; H{Chosen Answer}\n\n\n\n\n\n\n1"
   }
 ]
